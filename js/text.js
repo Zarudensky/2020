@@ -64,6 +64,12 @@ const congratulations = {
     "text1": "Конечно, для тебя это не будет сюрпризом.",
     "text2": "Но очень хочу, что бы ты улыбнулась)",
     "text3": "С Новым Годом!"
+  },
+  "daughter": { //?name=daughter
+    "name": "Лизочка",
+    "text1": "Любимая моя доченька.",
+    "text2": "Люблю тебя очень. Будь счастлива.",
+    "text3": "С Новым Годом!"
   }
 };
 const myurl_string = window.location.href;
@@ -132,5 +138,8 @@ switch (nameurl) {
     break;
   case 'natali':
     addText(congratulations.natali);
+    break;
+  case 'daughter':
+    addText(congratulations.daughter);
     break;
 }
