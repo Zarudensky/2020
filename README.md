@@ -22,3 +22,7 @@ https://zarudensky.github.io/2020/?name=vova
 https://zarudensky.github.io/2020/?name=natali
 
 https://zarudensky.github.io/2020/?name=daughter
+
+https://zarudensky.github.io/2020/?name=jenya
+
+https://zarudensky.github.io/2020/?name=sasha
