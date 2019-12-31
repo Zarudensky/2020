@@ -4,6 +4,7 @@
   height: 280px;
 }
 #volume {
+  opacity: 0;
   margin-top: 25px;
   cursor: pointer;
 }
@@ -187,31 +188,46 @@
  .step-2 .giftbox .box {
    animation: flyDown 0.2s ease-in 0.05s forwards;
 }
- @keyframes wobble {
-   25% {
-     transform: rotate(4deg);
-  }
-   75% {
-     transform: rotate(-2deg);
-  }
+.step-2 #volume { 
+  animation: soundShow 1.0s ease-in forwards;
 }
- @keyframes flyUp {
-   75% {
-     opacity: 1;
-  }
-   100% {
-     transform: translateY(-1000px) rotate(20deg);
+.step-3 #volume,
+.step-4 #volume {
+  opacity: 1;
+}
+@keyframes soundShow {
+   0% {
      opacity: 0;
   }
-}
- @keyframes flyDown {
-   75% {
+   100% {
      opacity: 1;
   }
-   100% {
-     transform: translateY(100%);
-     opacity: 0;
-  }
+}
+@keyframes wobble {
+ 25% {
+   transform: rotate(4deg);
+}
+ 75% {
+   transform: rotate(-2deg);
+}
+}
+@keyframes flyUp {
+ 75% {
+   opacity: 1;
+}
+ 100% {
+   transform: translateY(-1000px) rotate(20deg);
+   opacity: 0;
+}
+}
+@keyframes flyDown {
+ 75% {
+   opacity: 1;
+}
+ 100% {
+   transform: translateY(100%);
+   opacity: 0;
+}
 }
  .step-1 .icons .row span {
    opacity: 0;
@@ -316,9 +332,12 @@
 
 
 @media screen and (max-width: 490px) {
+  .present {
+    height: 210px;
+  }
   .giftbox {
-    width: 250px;
-    height: 175px;
-    margin-left: -125px;
+    width: 220px;
+    height: 150px;
+    margin-left: -110px;
   }
 }

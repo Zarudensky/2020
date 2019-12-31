@@ -33,7 +33,6 @@ $(document).ready(function() {
   let audio = new Audio('./audio/box.mp3');
       
   openBox.click(function() {
-    $('.descr').hide();
     audio.play();
     audio = new Audio('./audio/magic.mp3');
     audio.play();
