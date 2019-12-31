@@ -70,6 +70,18 @@ const congratulations = {
     "text1": "Любимая моя доченька.",
     "text2": "Люблю тебя очень. Будь счастлива.",
     "text3": "С Новым Годом!"
+  },
+  "jenya": { //?name=jenya
+    "name": "Женя",
+    "text1": "Дружище, хоть ты сейчас далеко(",
+    "text2": "Крепко обнимаю, пусть у тебя все получится!",
+    "text3": "С Новым Годом!"
+  },
+  "sasha": { //?name=sasha
+    "name": "Саша, Тома и Варя",
+    "text1": "Любви, здоровья, доброты.",
+    "text2": "И замечательных подарков!.",
+    "text3": "С Новым Годом!"
   }
 };
 const myurl_string = window.location.href;
@@ -81,6 +93,7 @@ const secondRow = document.getElementById('row_2');
 const thirtRow = document.getElementById('row_3');
 let arr = [];
 let newArr = [];
+names.innerText = nameurl;
 
 function addTags() {
   arr.forEach(function(el) {
@@ -142,4 +155,11 @@ switch (nameurl) {
   case 'daughter':
     addText(congratulations.daughter);
     break;
+  case 'jenya':
+    addText(congratulations.jenya);
+    break;
+  case 'sasha':
+    addText(congratulations.sasha);
+    break;
+
 }
