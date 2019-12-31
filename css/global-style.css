@@ -134,7 +134,7 @@ body {
 }
 @media screen and (max-width: 490px) {
   body {
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 100px);
   }
   .title {
     font-size: 40px;
