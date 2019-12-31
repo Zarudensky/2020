@@ -191,6 +191,10 @@
  .step-2 .giftbox:after {
    opacity: 0;
 }
+.step-1 .giftbox,.step-2 .giftbox,
+.step-3 .giftbox, .step-4 .giftbox {
+  pointer-events: none;
+}
  .step-3 .giftbox, .step-4 .giftbox {
    opacity: 0;
    z-index: 1;
