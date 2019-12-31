@@ -11,7 +11,7 @@ https://zarudensky.github.io/2020/?name=godmother
 
 https://zarudensky.github.io/2020/?name=goddaughter
 
-https://zarudensky.github.io/2020/?name=godfatherДорогие мои кумовья)
+https://zarudensky.github.io/2020/?name=godfather
 
 https://zarudensky.github.io/2020/?name=friends
 
